@@ -2,6 +2,25 @@
 このリポジトリには，Hugging Faceにアップロードした学習したモデルとHugging Faceへのアップロードするファイルが存在する．
 以下に，モデルの詳細や利用方法を記載している．
 
+## ディレクトリ構成
+```
+├─models
+│  ├─CSTGAN
+│  │  └─checkpoints
+│  ├─CycleGAN
+│  │  └─checkpoints
+│  ├─DCLGAN
+│  │  └─checkpoints
+│  └─MUNIT
+│      └─outputs
+│          ├─rgb2thermal_folder
+│          │  └─checkpoints
+│          ├─rgb2thermal_it2000000
+│          │  └─checkpoints
+│          └─rgb2thermal_it4000000
+│              └─checkpoints
+└─scripts
+```
 ## モデル一覧
 Hugging Face上のモデルは以下のリンクからアクセスできる．
 ### 1.[CycleGAN](https://huggingface.co/KIIIT000/RGB2TEHRMAL_CycleGAN)
@@ -40,6 +59,9 @@ pip install transformers
 ```
 2.**ファイルを実行**
 
+```cache_dir```は，モデルをローカルのフォルダに保存するディレクトリを指定する．
+
+[ファイル](https://github.com/KIIIIT00/RGB2THERMAL_PML/blob/main/scripts/save_models_by_hugging.py)を実行すると，指定された場所にモデルファイルが保存され，次回の実行時にはキャッシュが再利用される．
 
 ## 3.huggingface_hubライブラリを使う方法
 huggingface_hubライブラリを使って、Hugging Faceから直接リポジトリをダウンロードすることができる．この方法では、指定したファイルを直接ローカルに保存できる．
@@ -51,4 +73,7 @@ huggingface_hubライブラリを使って、Hugging Faceから直接リポジ�
 ```bash
 pip install huggingface_hub
 ```
+2.**ファイルを実行**
+```local_dir```は，ダウンロード先のローカルディレクトリパスを指定する．
 
+[ファイル](https://github.com/KIIIIT00/RGB2THERMAL_PML/blob/main/scripts/save_models_by_huggingfaceHub.py)を実行すると，このパスに，リポジトリの全ファイルがダウンロードされる．
