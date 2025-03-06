@@ -1,5 +1,9 @@
-models/**/
-! .gitkeep
+# model
+*.pth
+*.pt
+*.txt
+*.yaml
+
 
 
 # Byte-compiled / optimized / DLL files
