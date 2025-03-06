@@ -1,5 +1,6 @@
 # RGB2THERMAL_PML
-![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/username/model_name)
+
 
 このリポジトリには，Hugging Faceにアップロードした学習したモデルとHugging Faceへのアップロードするファイルが存在する．
 以下に，モデルの詳細や利用方法を記載している．
