@@ -1,5 +1,6 @@
 # RGB2THERMAL_PML
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white)
 
 このリポジトリには，Hugging Faceにアップロードした学習したモデルとHugging Faceへのアップロードするファイルが存在する．
 以下に，モデルの詳細や利用方法を記載している．
