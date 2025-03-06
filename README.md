@@ -38,6 +38,8 @@ transformersライブラリを使ってモデルをローカルにダウンロ�
 ``` bash
 pip install transformers
 ```
+2.**ファイルを実行**
+
 
 ## 3.huggingface_hubライブラリを使う方法
 huggingface_hubライブラリを使って、Hugging Faceから直接リポジトリをダウンロードすることができる．この方法では、指定したファイルを直接ローカルに保存できる．
@@ -49,3 +51,4 @@ huggingface_hubライブラリを使って、Hugging Faceから直接リポジ�
 ```bash
 pip install huggingface_hub
 ```
+
