@@ -1,7 +1,7 @@
 {
   "name": "RGB2TEHRMAL PML",
   "build": {
-      "dockerfile": "./Dockerfile"
+      "dockerfile": "../Dockerfile"
   },
   "workspaceFolder": "/workspace",
   "customizations": {
