@@ -1,3 +1,5 @@
+.env
+
 # model
 *.pth
 *.pt
