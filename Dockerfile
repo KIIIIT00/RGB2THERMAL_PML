@@ -11,11 +11,13 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+
 # 作業ディレクトリを設定
 WORKDIR /workspace
 
+COPY . /workspace
+
 # requirements.txt をコピーしてインストール
-COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # .envファイルの読み込み用にpython-dotenvを追加

@@ -2,11 +2,11 @@ import os
 from huggingface_hub import HfApi
 
 # Hugging Faceのリポジトリ情報
-model_name = "DCLGAN"
+model_name = "CycleGAN"
 user_name = "KIIIT000"
 repo_name = f"RGB2TEHRMAL_{model_name}"
 repo_id = f"{user_name}/{repo_name}"
-base_folder = f"models/{model_name}/checkpoints"
+base_folder = f"models/{model_name}"
 
 # Hugging Face API インスタンス
 api = HfApi()
