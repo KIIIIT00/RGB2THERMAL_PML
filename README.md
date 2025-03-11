@@ -7,6 +7,8 @@
 
 ## ディレクトリ構成
 ```
+├─.devcontainer
+│  └─devcontainer.json
 ├─models
 │  ├─CSTGAN
 │  │  └─checkpoints
@@ -22,7 +24,12 @@
 │          │  └─checkpoints
 │          └─rgb2thermal_it4000000
 │              └─checkpoints
-└─scripts
+├─scripts
+├─.gitignore
+├─Dockerfile
+├─LICENSE
+├─README.md
+└─requirements.txt
 ```
 ## モデル一覧
 Hugging Face上のモデルは以下のリンクからアクセスできる．
