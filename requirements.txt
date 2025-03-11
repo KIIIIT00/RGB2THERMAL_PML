@@ -1,0 +1,11 @@
+huggingface_hub
+python-dotenv
+jupyterlab
+numpy
+pandas
+torch
+torchvision
+scipy
+scikit-learn
+matplotlib
+python-dotenv
